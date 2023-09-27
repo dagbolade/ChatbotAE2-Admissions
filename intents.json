@@ -1,0 +1,115 @@
+{
+    "greeting": {
+        "keywords": ["hello", "hi", "hey", "greetings", "good morning", "good afternoon", "good evening"],
+        "responses": ["Hello! How can I assist you with the admissions and enrollment process today?"]
+    },
+    "admission_process": {
+        "keywords": ["admission process", "how to apply", "application process"],
+        "responses": ["The admission process involves submitting an online application, sending in your transcripts and other necessary documents, and waiting for an admission decision."]
+    },
+    "required_documents": {
+        "keywords": ["required documents", "documents needed", "what documents"],
+        "responses": ["You will need to submit your transcripts, proof of identity, letters of recommendation, and any test scores (if applicable)."]
+    },
+    "application_deadline": {
+        "keywords": ["application deadline", "last date to apply", "deadline"],
+        "responses": ["The application deadline for the Fall semester is June 30th, and for the Spring semester, it is November 30th."]
+    },
+    "tuition_fees": {
+        "keywords": ["tuition", "fees", "cost", "tuition fees"],
+        "responses": ["The tuition fee for undergraduate programs is approximately £9,250 per year for UK students. For international students, the fee is £13,800 per year."]
+    },
+    "financial_aid": {
+        "keywords": ["financial aid", "scholarships", "grants", "funding"],
+        "responses": ["We offer a variety of scholarships and financial aid options. You can apply for financial aid through the student portal after completing your application."]
+    },
+    "enrollment_process": {
+        "keywords": ["enrollment process", "how to enroll", "enrollment"],
+        "responses": ["After receiving your admission offer, you can enroll online through the student portal. You will need to choose your courses and pay the enrollment fee."]
+    },
+    "course_information": {
+        "keywords": ["courses", "programs", "degrees", "majors"],
+        "responses": ["We offer a wide range of undergraduate and postgraduate courses in various fields including Business, Engineering, Arts, and Sciences. You can find more information about our courses on our website."]
+    },
+    "contact_information": {
+        "keywords": ["contact", "phone number", "email", "address"],
+        "responses": ["You can contact the Admissions Office at admissions@solent.ac.uk or call us at +44 (0)23 8201 5066."]
+    },
+    "farewell": {
+        "keywords": ["bye", "goodbye", "see you", "thanks"],
+        "responses": ["Goodbye! Feel free to return anytime you have more questions. Have a great day!"]
+    },
+
+    "international_students": {
+        "keywords": ["international students", "foreign students", "international admission"],
+        "responses": ["International students are welcome! We have a dedicated International Office to assist you with the application process, visa information, and other related queries."]
+    },
+    "visa_information": {
+        "keywords": ["visa", "student visa", "visa information"],
+        "responses": ["International students will need to apply for a Tier 4 Student Visa. You can find more information and assistance on the UK government's official website or contact our International Office."]
+    },
+    "accommodation": {
+        "keywords": ["accommodation", "hostel", "housing", "living"],
+        "responses": ["We offer a variety of on-campus and off-campus accommodation options for students. You can explore and apply for accommodation through our website."]
+    },
+    "campus_tour": {
+        "keywords": ["campus tour", "visit campus", "campus visit"],
+        "responses": ["We organize regular campus tours for prospective students and their families. You can schedule a campus tour by contacting our Admissions Office or through our website."]
+    },
+    "language_requirements": {
+        "keywords": ["language requirements", "english proficiency", "IELTS", "TOEFL"],
+        "responses": ["International students must provide proof of English proficiency through IELTS, TOEFL, or an equivalent examination. The minimum IELTS score required is 6.5."]
+    },
+    "deferral": {
+        "keywords": ["defer", "deferral", "postpone", "delay admission"],
+        "responses": ["If you need to defer your admission, please contact the Admissions Office as soon as possible to discuss your options and complete the necessary paperwork."]
+    },
+    "transfer_students": {
+        "keywords": ["transfer", "transfer students", "credit transfer"],
+        "responses": ["Transfer students are welcome! Please contact our Admissions Office to discuss the transfer of your credits and other admission procedures."]
+    },
+    "part_time_work": {
+        "keywords": ["part-time work", "work while studying", "jobs"],
+        "responses": ["Students are allowed to work part-time while studying. The university also offers various on-campus job opportunities for students."]
+    },
+    "covid_19_guidelines": {
+        "keywords": ["covid-19", "coronavirus", "pandemic", "covid guidelines"],
+        "responses": ["We are closely following government guidelines regarding COVID-19 to ensure the safety of our students and staff. You can find detailed information and updates on our website."]
+    },
+    "orientation_program": {
+        "keywords": ["orientation", "orientation program", "induction"],
+        "responses": ["We conduct an orientation program for all new students to familiarize them with the campus, facilities, and university policies. The dates and details of the orientation program will be communicated to you after enrollment."]
+    },
+
+    "undergraduate_admission": {
+        "keywords": ["undergraduate admission", "bachelor admission", "undergrad admission"],
+        "responses": ["Undergraduate admissions require you to have completed your secondary education with satisfactory grades. You can find more details and apply on our admissions page on the website."]
+    },
+    "postgraduate_admission": {
+        "keywords": ["postgraduate admission", "master admission", "postgrad admission"],
+        "responses": ["For postgraduate admissions, you need to have completed a relevant undergraduate degree. Specific requirements can be found on the postgraduate admissions page on our website."]
+    },
+    "phd_admission": {
+        "keywords": ["phd admission", "doctorate admission", "phd apply"],
+        "responses": ["PhD admissions have specific eligibility criteria and require a research proposal. Detailed information is available on the PhD admissions page on our website."]
+    },
+    "online_courses": {
+        "keywords": ["online courses", "distance learning", "online learning"],
+        "responses": ["We offer a range of online courses and distance learning options. You can explore them on the online courses section of our website."]
+    },
+    "application_status": {
+        "keywords": ["application status", "status of application", "admission status"],
+        "responses": ["You can check your application status online by logging into your account on the admissions portal on our website."]
+    },
+    "entry_requirements": {
+        "keywords": ["entry requirements", "eligibility", "admission criteria"],
+        "responses": ["Entry requirements vary for different courses. Detailed information about entry requirements for each course is available on the respective course pages on our website."]
+    },
+    "speak_to_team_member": {
+        "keywords": ["speak to team member", "contact team", "talk to team", "speak to someone"],
+        "responses": ["If you wish to speak to a team member, please provide your contact details and we will get in touch with you as soon as possible."]
+    }
+}
+
+
+
