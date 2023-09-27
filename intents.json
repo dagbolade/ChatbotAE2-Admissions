@@ -149,6 +149,54 @@
     "how_to_make_payment": {
         "keywords": ["make a payment", "how to pay fees", "paying fees and charges"],
         "responses": ["For payment of fees and charges please refer to our payment page."]
+    },
+    "cas_deposits_info": {
+        "keywords": ["CAS deposits", "Confirmation of Acceptance for Studies deposits", "international students CAS"],
+        "responses": ["International students requiring a student visa to study in the UK will require a Confirmation of Acceptance for Studies. The University can only issue a CAS for applicants who have received an unconditional offer, firmly accepted their offer, and paid any necessary CAS deposit. Students are required to pay a CAS deposit of 50% of the course fees following firm acceptance of an unconditional offer."]
+    },
+    "pay_cas_conditional_offer": {
+        "keywords": ["pay CAS deposit conditional offer", "CAS deposit conditional"],
+        "responses": ["No. If your offer is conditional, you must meet all the conditions of your offer and receive an unconditional offer before paying your deposit. We cannot issue a CAS to any student with a conditional offer."]
+    },
+    "cas_deposit_deferring": {
+        "keywords": ["CAS deposit deferring", "CAS deposit need to be made if deferring"],
+        "responses": ["If you decide to defer your offer to the next academic year, you will be required to pay the CAS deposit as part of the deferral process, even if your offer is still conditional."]
+    },
+    "how_much_cas_deposit": {
+        "keywords": ["how much CAS deposit", "CAS deposit amount"],
+        "responses": ["The minimum that needs to be paid for your CAS deposit is 50% of your course fees. The maximum amount you can pay is the full tuition fee for your course."]
+    },
+    "how_pay_cas_deposit": {
+        "keywords": ["how pay CAS deposit", "make CAS deposit payment"],
+        "responses": ["To pay by credit or debit card, please visit www.solent.ac.uk/pay. UK or international bank transfers can be made using https://solentu.flywire.com. For more information, see our payments page."]
+    },
+    "cas_deposit_receipt": {
+        "keywords": ["CAS deposit receipt", "get a receipt for CAS deposit"],
+        "responses": ["Yes, if you pay online through www.solent.ac.uk/pay or https://solentu.flywire.com. The payment will also be included on the CAS which is issued in order for you to make your student visa application. The University does not issue receipts in hard copy."]
+    },
+    "cas_deposit_sponsor": {
+        "keywords": ["CAS deposit sponsor", "pay CAS deposit sponsor"],
+        "responses": ["The CAS deposit requirement is waived for students whose fees will be fully paid by a recognised sponsor, upon receipt of appropriate evidence. A copy of the sponsorship letter must be provided. For further details please visit our payments page."]
+    },
+    "cas_deposit_us_federal_loan": {
+        "keywords": ["CAS deposit US Federal Loan", "pay CAS deposit US loan"],
+        "responses": ["We can waive the deposit requirement for students from the USA who will receive loans from Federal Student Aid, providing the full cost of your tuition fees is covered by the loan. CAS deposits will be automatically waived once your US Federal Student Aid Loan has been certified. If you have any queries about the US Federal Student Aid process, you can email student.funding@solent.ac.uk."]
+    },
+    "cas_deposit_scholarship": {
+        "keywords": ["CAS deposit scholarship", "pay CAS deposit scholarship"],
+        "responses": ["If you have been awarded a full tuition fee scholarship (100% of your tuition fees) by the Solent University, we will waive the requirement for a tuition fee deposit. You must confirm acceptance of your scholarship. No other documentation is required. For partial scholarships, a deposit is still required or proof of a sponsorship letter from a recognised sponsor confirming funding of the remaining fees."]
+    },
+    "cas_deposit_different_funding": {
+        "keywords": ["CAS deposit different funding bodies", "pay CAS deposit multiple funding"],
+        "responses": ["If 100% of your tuition fees will be covered by recognised funding bodies, the tuition fee deposit will be waived."]
+    },
+    "payment_plan_tuition_fees": {
+        "keywords": ["payment plan tuition fees", "set up payment plan"],
+        "responses": ["As evidence of your commitment to studying at Solent while in the UK, Solent University policy requires overseas students to pay 50% of their fees before they register each year. Payment plans are not available for the first 50% of overseas tuition fees. Please see the payment plan page for more information."]
+    },
+    "further_questions_cas_deposit": {
+        "keywords": ["further questions CAS deposit", "more questions CAS deposit"],
+        "responses": ["For all other questions about tuition fee deposits, please contact the international admissions team by email: admissions.international@solent.ac.uk."]
     }
 }
 
