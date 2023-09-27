@@ -108,6 +108,47 @@
     "speak_to_team_member": {
         "keywords": ["speak to team member", "contact team", "talk to team", "speak to someone"],
         "responses": ["If you wish to speak to a team member, please provide your contact details and we will get in touch with you as soon as possible."]
+    },
+
+    "fees_paid_by_sponsor": {
+        "keywords": ["fees paid by sponsor", "fees paid by employer", "sponsor paying fees"],
+        "responses": ["Please provide a sponsorship letter from the recognised sponsor confirming funding of the fees. For further details please visit our fees and payments page."]
+    },
+    "undergraduate_slc_loan": {
+        "keywords": ["undergraduate student with SLC loan", "SLC loan payment", "undergraduate SLC loan"],
+        "responses": ["Please indicate that you are receiving a student loan on the funding page of online registration. Once your attendance is confirmed, tuition fees will be paid directly to the University from the SLC. The University will contact you if any further information is required."]
+    },
+    "postgraduate_slc_loan": {
+        "keywords": ["postgraduate student with SLC loan", "postgraduate SLC loan"],
+        "responses": ["Please indicate that you are paying the fees yourself on the funding page of online registration as the money will be paid directly to you to pay the University. On registration you will be able to agree the following payment plan: Postgraduate Home: 33% due in September, 33% due in January, and 34% due in May. The University will contact you if any further information is required."]
+    },
+    "slc_sponsored_assistance": {
+        "keywords": ["SLC-sponsored", "help with SLC application", "compelling personal reasons", "CPR"],
+        "responses": ["If you need assistance with your student loan application, or for compelling personal reasons, you should contact student.hub@solent.ac.uk or visit the Student Hub in TS114."]
+    },
+    "find_tuition_fees": {
+        "keywords": ["find out tuition fees", "tuition fees for the year"],
+        "responses": ["For new students, tuition fees will be quoted on offer letters. For continuing students, fees for the year will be available on online registration."]
+    },
+    "contact_for_course_fees": {
+        "keywords": ["unsure of course fees", "contact for course fees"],
+        "responses": ["New starters in their first year should contact admissions@solent.ac.uk. Continuing students should contact student.registry@solent.ac.uk. This includes any queries about the fee itself and residency status."]
+    },
+    "find_accommodation_fees": {
+        "keywords": ["accommodation fees", "room fees"],
+        "responses": ["Room fees will be shown when accommodation is booked for the year. Queries about room rates should be sent to accommodation@solent.ac.uk."]
+    },
+    "find_other_fees": {
+        "keywords": ["other fees and charges", "liable for other fees"],
+        "responses": ["Any mandatory extra fees and charges will be listed on the course pages, which are available on application. Any extras will be advertised at the time of offer."]
+    },
+    "find_outstanding_fees": {
+        "keywords": ["find out what I owe", "outstanding fees"],
+        "responses": ["During the year, for details of outstanding fees on your student account, please email income.team@solent.ac.uk."]
+    },
+    "how_to_make_payment": {
+        "keywords": ["make a payment", "how to pay fees", "paying fees and charges"],
+        "responses": ["For payment of fees and charges please refer to our payment page."]
     }
 }
 
