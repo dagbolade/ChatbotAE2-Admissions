@@ -86,7 +86,7 @@
         "responses": ["Undergraduate admissions require you to have completed your secondary education with satisfactory grades. You can find more details and apply on our admissions page on the website."]
     },
     "postgraduate_admission": {
-        "keywords": ["postgraduate admission", "master admission", "postgrad admission"],
+        "keywords": ["postgraduate admission", "master admission", "postgraduate admission"],
         "responses": ["For postgraduate admissions, you need to have completed a relevant undergraduate degree. Specific requirements can be found on the postgraduate admissions page on our website."]
     },
     "phd_admission": {
@@ -197,8 +197,105 @@
     "further_questions_cas_deposit": {
         "keywords": ["further questions CAS deposit", "more questions CAS deposit"],
         "responses": ["For all other questions about tuition fee deposits, please contact the international admissions team by email: admissions.international@solent.ac.uk."]
-    }
-}
+    },
+    "cas_deposit_refund": {
+        "keywords": ["CAS deposit refund", "refund CAS deposit"],
+        "responses": ["If you are unable to obtain a visa to study in the UK, you will be entitled to a refund of your CAS deposit. You must provide a copy of the visa refusal letter from the UKVI. If you have paid your CAS deposit and decide not to study at Solent University, you will not be entitled to a refund of your CAS deposit."]
+    },
+    "cas_deposit_refund_process": {
+        "keywords": ["CAS deposit refund process", "process for CAS deposit refund"],
+        "responses": ["If you are entitled to a refund of your CAS deposit, you must provide a copy of the visa refusal letter from the UKVI. The refund will be processed within 28 days of receipt of the visa refusal letter."]
+    },
+    "specific_accommodation": {
+        "keywords": ["accommodation", "different", "students", "LGBTQ+", "postgraduate", "mature" ],
+        "responses": ["We set aside certain areas for specific types of students. These include mature, postgraduate, returning students, single sex and LGBTQ+."]
+
+    },
+    "disability_accommodation": {
+        "keywords": ["disability", " accommodation ", "special", "requirements"],
+        "responses": ["We need to know any special requirements in advance as we have a limited amount of available rooms with specific adaptations."]
+    },
+    "friend": {
+        "keywords": ["same", "residence", "friend"],
+        "responses": ["You can request to be in the same flat/kitchen group as a friend. All friends involved must put the names of those they want to share with on their application. However, there is no guarantee as it depends on whether we have availability."]
+    },
+    "living_home": {
+        "keywords": ["home", " living "],
+        "responses": ["You do not need to inform us if you will be living at home during your studies. You can opt out receiving updates by emailing us."]
+    },
+    "guaranteed_room": {
+        "keywords": ["guaranteed", "room", "accommodation"],
+        "responses": ["We guarantee accommodation to undergraduate applicants who apply for a full-time course starting in September at Solent University until 30 June. You must have chosen Solent as your firm choice."]
+    },
+    "pay": {
+        "keywords": ["pay", "room", "accommodation", "maintenance", "loan", "UK", "international"],
+        "responses": ["Fees for UK students are split into three instalments due in October, January and April. You can use your maintenance loan to pay for student accommodation. International student accommodation fees are due in full by 1 September. Any contracts accepted after 1 September are required to be paid in full."]
+    },
+    "advanced_payment": {
+        "keywords": ["advanced payment", "fees"],
+        "responses": ["We require students to pay an advanced rent payment of £150 for UK students, £1000 for international students, and £50 for returning students at the time of accepting your room offer."]
+    },
+    "card_details": {
+        "keywords": ["change", "card details"],
+        "responses": ["Yes, you can change your card details at any time. Use this link: https://epayments.solent.ac.uk/customer-card-update"]
+    },
+    "contact_maintenance": {
+            "keywords": ["contact", "information", "loan", "maintenance", "phone number", "email", "address"],
+            "responses": ["You can contact the income team by email: income.team@solent.ac.uk or phone 023 8201 3970."]
+    },
+    "accommodation_pacakge": {
+            "keywords": ["hall fees", "included", "accommodation", "services"],
+            "responses": ["Here are a list of what is included in hall fees: Up to 100 MB WiFi access (ethernet cables are also provided). Personal contents insurance. Social spaces with various complimentary activities. All utility bills. Cleaning of communal areas. Repairs and maintenance. Residence team available 24 hours a day. Exclusive access to the ResLife events and giveaways."],
+    },
+
+    "family_accommodation": {
+
+            "keywords": ["offer", "family accommodation"],
+
+            "responses": ["Unfortunately we do not offer family accommodation. You will need to look for private accommodation in Southampton."
+
+         },
+
+    "moving_date": {
+
+            "keywords": ["arrive", "residence", "move in", "date"],
+
+            "responses": ["Standard contract starts on 14 September for UK residents. International students can arrive two days earlier."
+
+         },
+
+    "change_room": {
+
+            "keywords": ["change", "residence", "room"],
+
+            "responses": ["Yes, we keep a waiting list for students wanting to move rooms. You can either change to a different flat or kitchen group."
+
+         },
+
+    "pets": {
+
+            "keywords": ["pets", "allowed", "permitted", "animals", "support animals"],
+
+            "responses": ["No pets or support animals are allowed in our residences."
+
+         },
+
+    "parking": {
+
+            "keywords": ["parking", "car", "bike", "permit", "car park", "motorbike", "onsite"],
+
+            "responses": ["Each residence has its own car park. There is an additional charge for parking. Students can apply for a space when applying for their accommodation. There are provisions for motorbikes at the residences and there is no charge to park there. You must provide us with the make, model and registration number of the vehicle. The residences also have bike storage available.”
+
+    },
+
+    "pets": {
+
+            "keywords": ["pets", "allowed", "permitted", "animals", "support animals"],
+
+            "responses": ["No pets or support animals are allowed in our residences."
+
+         }
+        }
 
 
 
