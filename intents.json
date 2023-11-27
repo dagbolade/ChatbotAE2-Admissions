@@ -247,55 +247,44 @@
             "keywords": ["hall fees", "included", "accommodation", "services"],
             "responses": ["Here are a list of what is included in hall fees: Up to 100 MB WiFi access (ethernet cables are also provided). Personal contents insurance. Social spaces with various complimentary activities. All utility bills. Cleaning of communal areas. Repairs and maintenance. Residence team available 24 hours a day. Exclusive access to the ResLife events and giveaways."],
     },
-
     "family_accommodation": {
-
-            "keywords": ["offer", "family accommodation"],
-
-            "responses": ["Unfortunately we do not offer family accommodation. You will need to look for private accommodation in Southampton."
-
-         },
-
-    "moving_date": {
-
-            "keywords": ["arrive", "residence", "move in", "date"],
-
-            "responses": ["Standard contract starts on 14 September for UK residents. International students can arrive two days earlier."
-
-         },
-
-    "change_room": {
-
-            "keywords": ["change", "residence", "room"],
-
-            "responses": ["Yes, we keep a waiting list for students wanting to move rooms. You can either change to a different flat or kitchen group."
-
-         },
-
-    "pets": {
-
-            "keywords": ["pets", "allowed", "permitted", "animals", "support animals"],
-
-            "responses": ["No pets or support animals are allowed in our residences."
-
-         },
-
-    "parking": {
-
-            "keywords": ["parking", "car", "bike", "permit", "car park", "motorbike", "onsite"],
-
-            "responses": ["Each residence has its own car park. There is an additional charge for parking. Students can apply for a space when applying for their accommodation. There are provisions for motorbikes at the residences and there is no charge to park there. You must provide us with the make, model and registration number of the vehicle. The residences also have bike storage available.”
-
+        "keywords": ["offer", "family accommodation"],
+        "responses": ["Unfortunately we do not offer family accommodation. You will need to look for private accommodation in Southampton."]
     },
-
+    "moving_date": {
+        "keywords": ["arrive", "residence", "move in", "date"],
+        "responses": ["Standard contract starts on 14 September for UK residents. International students can arrive two days earlier."]
+    },
+    "change_room": {
+        "keywords": ["change", "residence", "room"],
+        "responses": ["Yes, we keep a waiting list for students wanting to move rooms. You can either change to a different flat or kitchen group."]
+    },
     "pets": {
-
-            "keywords": ["pets", "allowed", "permitted", "animals", "support animals"],
-
-            "responses": ["No pets or support animals are allowed in our residences."
-
-         }
-        }
-
-
-
+        "keywords": ["pets", "allowed", "permitted", "animals", "support animals"],
+        "responses": ["No pets or support animals are allowed in our residences."]
+    },
+    "parking": {
+        "keywords": ["parking", "car", "bike", "permit", "car park", "motorbike", "onsite"],
+        "responses": ["Each residence has its own car park. There is an additional charge for parking. Students can apply for a space when applying for their accommodation. There are provisions for motorbikes at the residences and there is no charge to park there. You must provide us with the make, model and registration number of the vehicle. The residences also have bike storage available.”"]
+    },
+    "laundry": {
+        "keywords": ["laundry", "washing", "machine", "dryer", "washing machine", "dryer machine"],
+        "responses": ["All residences have laundry facilities. You will need to pay for the use of the machines. You can pay by card or through the Circuit app."]
+    },
+    "kitchen": {
+        "keywords": ["kitchen", "cooking", "food", "fridge", "microwave", "oven", "hob", "kettle", "toaster", "utensils"],
+        "responses": ["All residences have a shared kitchen. You will need to provide your own utensils, pots, pans, plates, cutlery, etc. You will also need to provide your own food. The kitchens have a fridge, microwave, oven, hob, kettle and toaster."]
+    },
+    "bedding": {
+        "keywords": ["bedding", "bed", "sheets", "pillow", "duvet", "blanket"],
+        "responses": ["You will need to provide your own bedding. This includes sheets, pillows, duvet and blankets."]
+    },
+    "offered_room": {
+        "keywords": ["room", "offer", "accommodation", "accept", "decline"],
+        "responses": ["You will be offered a room in one of our residences. You can either accept or decline the offer. If you accept the offer, you will need to pay an advanced rent payment of £150 for UK students, £1000 for international students, and £50 for returning students."]
+    },
+    "contract_length": {
+        "keywords": ["contract", "length", "accommodation", "stay"],
+        "responses": ["The standard contract length is 40 weeks. You can apply for a 50 week contract if you are a returning student or a postgraduate student."]
+    }
+}
