@@ -1,7 +1,11 @@
 {
     "greeting": {
         "keywords": ["hello", "hi", "hey", "greetings", "good morning", "good afternoon", "good evening"],
-        "responses": ["Hello! How can I assist you with the admissions and enrollment process today?"]
+        "responses": ["Hello! How can I assist you with the admissions and enrollment process today?", "Hi! How can I help you today?", "are you looking for information about admissions and enrollment?"],
+    },
+    "name": {
+        "keywords": ["name", "who are you", "what's your name"],
+        "responses": ["My name is SolentBot. I am here to help you with the admissions and enrollment process.", "I'm SolentBot, your virtual assistant. I can help you with the admissions and enrollment process.", "SolentBot here! I can help you with the admissions and enrollment process."]
     },
     "admission_process": {
         "keywords": ["admission process", "how to apply", "application process"],
@@ -47,6 +51,14 @@
     "visa_information": {
         "keywords": ["visa", "student visa", "visa information"],
         "responses": ["International students will need to apply for a Tier 4 Student Visa. You can find more information and assistance on the UK government's official website or contact our International Office."]
+    },
+    "scholarships": {
+        "keywords": ["scholarships", "financial aid", "funding"],
+        "responses": ["We offer a variety of scholarships and financial aid options. You can apply for financial aid through the student portal after completing your application."]
+    },
+    "help": {
+        "keywords": ["help", "need help", "need assistance"],
+        "responses": ["How can I help you today?"]
     },
     "accommodation": {
         "keywords": ["accommodation", "hostel", "housing", "living"],
