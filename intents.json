@@ -17,7 +17,7 @@
     },
     "application_deadline": {
         "keywords": ["application deadline", "last date to apply", "deadline"],
-        "responses": ["The application deadline for the Fall semester is June 30th, and for the Spring semester, it is November 30th."]
+        "responses": ["The application deadline for the Fall semester is June 30th, and for the Spring semester, it is November 30th.", "Deadlines vary for different courses. You can find the application deadline for your course on our website."]
     },
     "tuition_fees": {
         "keywords": ["tuition", "fees", "cost", "tuition fees"],
