@@ -1,7 +1,7 @@
 {
     "greeting": {
         "keywords": ["hello", "hi", "hey", "greetings", "good morning", "good afternoon", "good evening"],
-        "responses": ["Hello! How can I assist you with the admissions and enrollment process today?", "Hi! How can I help you today?", "are you looking for information about admissions and enrollment?"],
+        "responses": ["Hello! How can I assist you with the admissions and enrollment process today?", "Hi! How can I help you today?", "are you looking for information about admissions and enrollment?"]
     },
     "name": {
         "keywords": ["name", "who are you", "what's your name"],
@@ -257,7 +257,7 @@
     },
     "accommodation_pacakge": {
             "keywords": ["hall fees", "included", "accommodation", "services"],
-            "responses": ["Here are a list of what is included in hall fees: Up to 100 MB WiFi access (ethernet cables are also provided). Personal contents insurance. Social spaces with various complimentary activities. All utility bills. Cleaning of communal areas. Repairs and maintenance. Residence team available 24 hours a day. Exclusive access to the ResLife events and giveaways."],
+            "responses": ["Here are a list of what is included in hall fees: Up to 100 MB WiFi access (ethernet cables are also provided). Personal contents insurance. Social spaces with various complimentary activities. All utility bills. Cleaning of communal areas. Repairs and maintenance. Residence team available 24 hours a day. Exclusive access to the ResLife events and giveaways."]
     },
     "family_accommodation": {
         "keywords": ["offer", "family accommodation"],
@@ -277,7 +277,7 @@
     },
     "parking": {
         "keywords": ["parking", "car", "bike", "permit", "car park", "motorbike", "onsite"],
-        "responses": ["Each residence has its own car park. There is an additional charge for parking. Students can apply for a space when applying for their accommodation. There are provisions for motorbikes at the residences and there is no charge to park there. You must provide us with the make, model and registration number of the vehicle. The residences also have bike storage available.”"]
+        "responses": ["Each residence has its own car park. There is an additional charge for parking. Students can apply for a space when applying for their accommodation. There are provisions for motorbikes at the residences and there is no charge to park there. You must provide us with the make, model and registration number of the vehicle. The residences also have bike storage available."]
     },
     "laundry": {
         "keywords": ["laundry", "washing", "machine", "dryer", "washing machine", "dryer machine"],
