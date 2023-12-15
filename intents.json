@@ -7,7 +7,7 @@
         {"tag": "name",
         "patterns": ["name", "who are you", "what's your name"],
         "responses": ["My name is SolentBot. I am here to help you with the admissions and enrollment process.", "I'm SolentBot, your virtual assistant. I can help you with the admissions and enrollment process.", "SolentBot here! I can help you with the admissions and enrollment process."]
-         },
+        },
 
         {"tag": "admission_process",
         "patterns": ["admission process", "how to apply", "application process"],
@@ -85,8 +85,8 @@
         },
 
         {"tag": "accommodation",
-            "patterns": ["accommodation", "hostel", "housing", "living"],
-        "responses": ["We offer a variety of on-campus and off-campus accommodation options for students. You can explore and apply for accommodation through our website."]
+         "patterns": ["accommodation", "hostel", "housing", "living"],
+          "responses": ["We offer a variety of on-campus and off-campus accommodation options for students. You can explore and apply for accommodation through our website."]
         },
 
         {"tag": "student_life",
@@ -95,7 +95,7 @@
         },
 
         {"tag": "student_support",
-            "patterns": ["student support", "student services", "student help"],
+          "patterns": ["student support", "student services", "student help"],
             "responses": ["We have a dedicated Student Support team to assist you with any issues or concerns you may have during your time at the university. You can find more information about student support on our website."]
         },
 
@@ -271,7 +271,7 @@
 
         {"tag": "find_accommodation_fees",
             "patterns": ["accommodation fees", "room fees"],
-            "responses": ["Room fees will be shown when accommodation is booked for the year. Queries about room rates should be sent to accommodation@solent.ac.uk."],
+            "responses": ["Room fees will be shown when accommodation is booked for the year. Queries about room rates should be sent to accommodation@solent.ac.uk."]
         },
 
         {"tag": "find_other_fees",
@@ -376,7 +376,7 @@
 
         {"tag": "accommodation_pacakge",
               "patterns": ["hall fees", "included", "accommodation", "services"],
-              "responses": ["Here are a list of what is included in hall fees: Up to 100 MB WiFi access (ethernet cables are also provided). Personal contents insurance. Social spaces with various complimentary activities. All utility bills. Cleaning of communal areas. Repairs and maintenance. Residence team available 24 hours a day. Exclusive access to the ResLife events and giveaways."],
+              "responses": ["Here are a list of what is included in hall fees: Up to 100 MB WiFi access (ethernet cables are also provided). Personal contents insurance. Social spaces with various complimentary activities. All utility bills. Cleaning of communal areas. Repairs and maintenance. Residence team available 24 hours a day. Exclusive access to the ResLife events and giveaways."]
         },
 
         {"tag":"disability_accommodation",
@@ -398,53 +398,58 @@
             "responses": ["We guarantee accommodation to undergraduate applicants who apply for a full-time course starting in September at Solent University until 30 June. You must have chosen Solent as your firm choice."]
         },
 
-        "pay": {
-            "keywords": ["pay", "room", "accommodation", "maintenance", "loan", "UK", "international"],
+        {"tag": "pay",
+            "patterns": ["pay", "room", "accommodation", "maintenance", "loan", "UK", "international"],
             "responses": ["Fees for UK students are split into three instalments due in October, January and April. You can use your maintenance loan to pay for student accommodation. International student accommodation fees are due in full by 1 September. Any contracts accepted after 1 September are required to be paid in full."]
         },
-        "advanced_payment": {
-            "keywords": ["advanced payment", "fees"],
+        {"tag": "advanced_payment",
+            "patterns": ["advanced payment", "fees"],
             "responses": ["We require students to pay an advanced rent payment of £150 for UK students, £1000 for international students, and £50 for returning students at the time of accepting your room offer."]
         },
-        "card_details": {
-            "keywords": ["change", "card details"],
-            "responses": ["Yes, you can change your card details at any time. Use this link: https://epayments.solent.ac.uk/customer-card-update"]
+        {"tag": "family_accommodation",
+          "patterns": ["offer", "family accommodation"],
+              "responses": ["Unfortunately we do not offer family accommodation. You will need to look for private accommodation in Southampton."]
         },
-        "contact_maintenance": {
-                "keywords": ["contact", "information", "loan", "maintenance", "phone number", "email", "address"],
-                "responses": ["You can contact the income team by email: income.team@solent.ac.uk or phone 023 8201 3970."]
-        },
-        "accommodation_pacakge": {
-                "keywords": ["hall fees", "included", "accommodation", "services"],
-                "responses": ["Here are a list of what is included in hall fees: Up to 100 MB WiFi access (ethernet cables are also provided). Personal contents insurance. Social spaces with various complimentary activities. All utility bills. Cleaning of communal areas. Repairs and maintenance. Residence team available 24 hours a day. Exclusive access to the ResLife events and giveaways."]
-        },
-        "family_accommodation": {
-            "keywords": ["offer", "family accommodation"],
-            "responses": ["Unfortunately we do not offer family accommodation. You will need to look for private accommodation in Southampton."]
-        },
-        "moving_date": {
-            "keywords": ["arrive", "residence", "move in", "date"],
+        {"tag": "moving_date",
+            "patterns": ["arrive", "residence", "move in", "date"],
             "responses": ["Standard contract starts on 14 September for UK residents. International students can arrive two days earlier."]
         },
-        "change_room": {
-            "keywords": ["change", "residence", "room"],
+        {"tag": "change_room",
+            "patterns": ["change", "residence", "room"],
             "responses": ["Yes, we keep a waiting list for students wanting to move rooms. You can either change to a different flat or kitchen group."]
         },
-        "pets": {
-            "keywords": ["pets", "allowed", "permitted", "animals", "support animals"],
+        {"tag": "pets",
+            "patterns": ["pets", "allowed", "permitted", "animals", "support animals"],
             "responses": ["No pets or support animals are allowed in our residences."]
         },
-        "parking": {
-            "keywords": ["parking", "car", "bike", "permit", "car park", "motorbike", "onsite"],
+        {"tag": "parking",
+            "patterns": ["parking", "car", "bike", "permit", "car park", "motorbike", "onsite"],
             "responses": ["Each residence has its own car park. There is an additional charge for parking. Students can apply for a space when applying for their accommodation. There are provisions for motorbikes at the residences and there is no charge to park there. You must provide us with the make, model and registration number of the vehicle. The residences also have bike storage available."]
         },
-
-        "offered_room": {
-            "keywords": ["room", "offer", "accommodation", "accept", "decline"],
+        {"tag": "covid_19_accommodation",
+            "patterns": ["covid-19", "coronavirus", "pandemic", "covid guidelines", "accommodation"],
+            "responses": ["We are closely following government guidelines regarding COVID-19 to ensure the safety of our students and staff. You can find detailed information and updates on our website."]
+        },
+        {"tag": "accommodation_cancellation",
+            "patterns": ["accommodation", "cancel", "cancellation", "withdraw", "withdrawal"],
+            "responses": ["If you wish to cancel your accommodation, you must inform us in writing. You will be charged a cancellation fee of £150. If you cancel after 1 September, you will be charged the full accommodation fee for the year."]
+        },
+        {"tag": "accommodation_refund",
+            "patterns": ["accommodation", "refund", "refundable", "refund policy"],
+            "responses": ["If you cancel your accommodation before 1 September, you will be charged a cancellation fee of £150. If you cancel after 1 September, you will be charged the full accommodation fee for the year."]
+        },
+        {"tag": "accommodation_pacakge",
+           "patterns": ["hall fees", "included", "accommodation", "services"],
+           "responses": ["Here are a list of what is included in hall fees: Up to 100 MB WiFi access (ethernet cables are also provided). Personal contents insurance. Social spaces with various complimentary activities. All utility bills. Cleaning of communal areas. Repairs and maintenance. Residence team available 24 hours a day. Exclusive access to the ResLife events and giveaways."]
+        },
+        {"tag": "offered_room",
+            "patterns": ["room", "offer", "accommodation", "accept", "decline"],
             "responses": ["You will be offered a room in one of our residences. You can either accept or decline the offer. If you accept the offer, you will need to pay an advanced rent payment of £150 for UK students, £1000 for international students, and £50 for returning students."]
         },
-        "contract_length": {
-            "keywords": ["contract", "length", "accommodation", "stay"],
+        {"tag": "contract_length",
+            "patterns": ["contract", "length", "accommodation", "stay"],
             "responses": ["The standard contract length is 40 weeks. You can apply for a 50 week contract if you are a returning student or a postgraduate student."]
         }
-    }
+    ]
+}
+
