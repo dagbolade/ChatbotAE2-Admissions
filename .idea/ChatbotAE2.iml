@@ -5,8 +5,9 @@
       <excludeFolder url="file://$MODULE_DIR$/HousePricePrediction" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
       <excludeFolder url="file://$MODULE_DIR$/Dog_Breed_Predictio" />
+      <excludeFolder url="file://$MODULE_DIR$/venvv" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.7 (ChatbotAE2)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.11" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
