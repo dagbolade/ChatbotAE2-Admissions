@@ -89,25 +89,11 @@
           "responses": ["We offer a variety of on-campus and off-campus accommodation options for students. You can explore and apply for accommodation through our website."]
         },
 
-        {"tag": "student_life",
-            "patterns": ["student life", "student activities", "clubs", "societies"],
-            "responses": ["We have a vibrant student community with a variety of clubs and societies. You can find more information about student life on our website."]
-        },
-
-        {"tag": "student_support",
-          "patterns": ["student support", "student services", "student help"],
-            "responses": ["We have a dedicated Student Support team to assist you with any issues or concerns you may have during your time at the university. You can find more information about student support on our website."]
-        },
-
         {"tag": "student_finance",
             "patterns": ["student finance", "tuition fees", "fees", "cost"],
             "responses": ["The tuition fee for undergraduate programs is approximately £9,250 per year for UK students. For international students, the fee is £13,800 per year."]
         },
 
-        {"tag": "student_jobs",
-            "patterns": ["student jobs", "part-time jobs", "work while studying"],
-            "responses": ["Students are allowed to work part-time while studying. The university also offers various on-campus job opportunities for students."]
-        },
 
         {"tag": "student_visa",
             "patterns": ["student visa", "visa", "visa information"],
@@ -175,13 +161,8 @@
         },
 
         {"tag": "phd_admission",
-            "patterns": ["phd admission", "doctorate admission", "phd program"],
+            "patterns": ["requirements for phd program", "'how to apply for doctorate", "phd application process"],
             "responses": ["PhD admissions require you to have completed your postgraduate degree with satisfactory grades. You can find more details and apply on our admissions page on the website."]
-        },
-
-        {"tag": "admission_offer",
-            "patterns": ["admission offer", "offer letter", "admission decision"],
-            "responses": ["You will receive an admission offer through email. You can also check your admission status through the student portal."]
         },
 
         {"tag": "admission_status",
@@ -189,10 +170,6 @@
             "responses": ["You can check your admission status through the student portal. You will also receive an email notification when your admission decision is available."]
         },
 
-        {"tag": "admission_decision",
-            "patterns": ["admission decision", "admission offer", "admission status"],
-            "responses": ["You will receive an admission offer through email. You can also check your admission status through the student portal."]
-        },
 
         {"tag": "admission_letter",
             "patterns": ["admission letter", "offer letter", "admission offer"],
@@ -210,7 +187,7 @@
         },
 
         {"tag": "admission_deadline",
-            "patterns": ["application deadline", "last date to apply", "deadline"],
+            "patterns": ["application deadline for admission", "last date to apply", "deadline", "application date"],
             "responses": ["The application deadline for the Fall semester is June 30th, and for the Spring semester, it is November 30th.", "Deadlines vary for different courses. You can find the application deadline for your course on our website."]
         },
 
@@ -235,8 +212,8 @@
         },
 
         {"tag": "admission_offer",
-            "patterns": ["admission offer", "offer letter", "admission decision"],
-            "responses": ["You will receive an admission offer through email. You can also check your admission status through the student portal."]
+            "patterns": ["'tell me about the admission offer", "details about offer letter", "what does the admission offer include"],
+            "responses": ["You will receive an admission offer through email. You can also check your admission status through the student portal.","Your admission offer will be sent via email, detailing the course, fees, and next steps. You can also view the offer details on the student portal."]
         },
 
         {"tag": "admission_status",
@@ -245,8 +222,8 @@
         },
 
         {"tag": "admission_decision",
-            "patterns": ["admission decision", "admission offer", "admission status"],
-            "responses": ["You will receive an admission offer through email. You can also check your admission status through the student portal."]
+            "patterns": ["when will I receive the admission decision", "'how are admission decisions communicated", "admission status"],
+            "responses": ["You will receive an admission offer through email. You can also check your admission status through the student portal.","Admission decisions are typically communicated within 4-6 weeks after the application deadline via email. You can also find updates on your student portal."]
         },
 
         {"tag": "postgraduate_slc_loan",
@@ -344,78 +321,45 @@
             "responses": ["If you are entitled to a refund of your CAS deposit, you must provide a copy of the visa refusal letter from the UKVI. The refund will be processed within 28 days of receipt of the visa refusal letter."]
         },
 
-        {"tag": "specific_accommodation",
-            "patterns": ["accommodation", "different", "students", "LGBTQ+", "postgraduate", "mature" ],
-            "responses": ["We set aside certain areas for specific types of students. These include mature, postgraduate, returning students, single sex and LGBTQ+."]
-        },
 
         {"tag": "accommodation_application",
-              "patterns": ["accommodation", "application", "apply", "deadline", "date"],
+              "patterns": ["accommodation application", "application of accommodation", "apply for accommodation", "deadline to apply for accommodation"],
               "responses": ["You can apply for accommodation once you have accepted your offer to study at Solent University. The deadline for applications is 30 June."]
         },
 
-        {"tag": "accommodation_offer",
-              "patterns": ["accommodation", "offer", "room", "accept", "decline"],
-              "responses": ["You will be offered a room in one of our residences. You can either accept or decline the offer. If you accept the offer, you will need to pay an advanced rent payment of £150 for UK students, £1000 for international students, and £50 for returning students."]
-        },
-
-        {"tag": "accommodation_contract",
-              "patterns": ["accommodation", "contract", "length", "stay"],
-              "responses": ["The standard contract length is 40 weeks. You can apply for a 50 week contract if you are a returning student or a postgraduate student."]
-        },
-
-        {"tag": "accommodation_pacakge",
-              "patterns": ["hall fees", "included", "accommodation", "services"],
-              "responses": ["Here are a list of what is included in hall fees: Up to 100 MB WiFi access (ethernet cables are also provided). Personal contents insurance. Social spaces with various complimentary activities. All utility bills. Cleaning of communal areas. Repairs and maintenance. Residence team available 24 hours a day. Exclusive access to the ResLife events and giveaways."]
-        },
-
-        {"tag": "accommodation_pacakge",
-              "patterns": ["hall fees", "included", "accommodation", "services"],
-              "responses": ["Here are a list of what is included in hall fees: Up to 100 MB WiFi access (ethernet cables are also provided). Personal contents insurance. Social spaces with various complimentary activities. All utility bills. Cleaning of communal areas. Repairs and maintenance. Residence team available 24 hours a day. Exclusive access to the ResLife events and giveaways."]
-        },
-
-        {"tag": "accommodation_pacakge",
-              "patterns": ["hall fees", "included", "accommodation", "services"],
-              "responses": ["Here are a list of what is included in hall fees: Up to 100 MB WiFi access (ethernet cables are also provided). Personal contents insurance. Social spaces with various complimentary activities. All utility bills. Cleaning of communal areas. Repairs and maintenance. Residence team available 24 hours a day. Exclusive access to the ResLife events and giveaways."]
-        },
-
         {"tag":"disability_accommodation",
-            "patterns": ["disability", " accommodation ", "special", "requirements"],
+            "patterns": ["disability", "disabled", "special requirements", "special needs", "medical condition", "medical"],
             "responses": ["We need to know any special requirements in advance as we have a limited amount of available rooms with specific adaptations."]
         },
 
-        {"tag": "friend",
-            "patterns": ["same", "residence", "friend"],
-            "responses": ["You can request to be in the same flat/kitchen group as a friend. All friends involved must put the names of those they want to share with on their application. However, there is no guarantee as it depends on whether we have availability."]
-        },
         {"tag": "living_home",
             "patterns": ["home", " living "],
             "responses": ["You do not need to inform us if you will be living at home during your studies. You can opt out receiving updates by emailing us."]
         },
 
         {"tag": "guaranteed_room",
-            "patterns": ["guarantee", "room", "accommodation", "offer"],
+            "patterns": ["guarantee", "room", "room offer", "accommodation offer"],
             "responses": ["We guarantee accommodation to undergraduate applicants who apply for a full-time course starting in September at Solent University until 30 June. You must have chosen Solent as your firm choice."]
         },
 
         {"tag": "pay",
-            "patterns": ["pay", "room", "accommodation", "maintenance", "loan", "UK", "international"],
+            "patterns": ["accommodation payment", "payment installment", "payment for accommodation"],
             "responses": ["Fees for UK students are split into three instalments due in October, January and April. You can use your maintenance loan to pay for student accommodation. International student accommodation fees are due in full by 1 September. Any contracts accepted after 1 September are required to be paid in full."]
         },
         {"tag": "advanced_payment",
-            "patterns": ["advanced payment", "fees"],
+            "patterns": ["advanced payment for room", "deposit for accommodation", "deposit for room", "deposit for residence"],
             "responses": ["We require students to pay an advanced rent payment of £150 for UK students, £1000 for international students, and £50 for returning students at the time of accepting your room offer."]
         },
         {"tag": "family_accommodation",
-          "patterns": ["offer", "family accommodation"],
+          "patterns": ["family accommodation", "family", "children", "partner"],
               "responses": ["Unfortunately we do not offer family accommodation. You will need to look for private accommodation in Southampton."]
         },
         {"tag": "moving_date",
-            "patterns": ["arrive", "residence", "move in", "date"],
+            "patterns": ["arrive on campus", "residence date ", "moving in", "date to move in", "date to move in"],
             "responses": ["Standard contract starts on 14 September for UK residents. International students can arrive two days earlier."]
         },
         {"tag": "change_room",
-            "patterns": ["change", "residence", "room"],
+            "patterns": ["change room", "change residence", "change my room"],
             "responses": ["Yes, we keep a waiting list for students wanting to move rooms. You can either change to a different flat or kitchen group."]
         },
         {"tag": "pets",
@@ -427,27 +371,27 @@
             "responses": ["Each residence has its own car park. There is an additional charge for parking. Students can apply for a space when applying for their accommodation. There are provisions for motorbikes at the residences and there is no charge to park there. You must provide us with the make, model and registration number of the vehicle. The residences also have bike storage available."]
         },
         {"tag": "covid_19_accommodation",
-            "patterns": ["covid-19", "coronavirus", "pandemic", "covid guidelines", "accommodation"],
+            "patterns": ["covid-19", "coronavirus", "pandemic", "covid guidelines"],
             "responses": ["We are closely following government guidelines regarding COVID-19 to ensure the safety of our students and staff. You can find detailed information and updates on our website."]
         },
         {"tag": "accommodation_cancellation",
-            "patterns": ["accommodation", "cancel", "cancellation", "withdraw", "withdrawal"],
-            "responses": ["If you wish to cancel your accommodation, you must inform us in writing. You will be charged a cancellation fee of £150. If you cancel after 1 September, you will be charged the full accommodation fee for the year."]
+            "patterns": ["cancel accommodation", "cancellation of accommodation", "withdraw accommodation", "withdrawal of accommodation","canceling my accommodation reservation"],
+            "responses": ["If you wish to cancel your accommodation, you must inform us in writing. You will be charged a cancellation fee of £150. If you cancel after 1 September, you will be charged the full accommodation fee for the year.","'To cancel your accommodation, log in to the student housing portal or directly reach out to the accommodation office. Make sure to review the cancellation terms in your agreement."]
         },
         {"tag": "accommodation_refund",
-            "patterns": ["accommodation", "refund", "refundable", "refund policy"],
-            "responses": ["If you cancel your accommodation before 1 September, you will be charged a cancellation fee of £150. If you cancel after 1 September, you will be charged the full accommodation fee for the year."]
+            "patterns": ["accommodation refund", "refund process for campus housing", "can I get a refund if I cancel my accommodation"],
+            "responses": ["If you cancel your accommodation before 1 September, you will be charged a cancellation fee of £150. If you cancel after 1 September, you will be charged the full accommodation fee for the year.","Accommodation refunds are subject to the terms of your housing agreement. For detailed information about the refund policy, please check your contract or contact the accommodation office."]
         },
         {"tag": "accommodation_pacakge",
-           "patterns": ["hall fees", "included", "accommodation", "services"],
+           "patterns": ["room packages", "included in room", "hall packages", "included in hall"],
            "responses": ["Here are a list of what is included in hall fees: Up to 100 MB WiFi access (ethernet cables are also provided). Personal contents insurance. Social spaces with various complimentary activities. All utility bills. Cleaning of communal areas. Repairs and maintenance. Residence team available 24 hours a day. Exclusive access to the ResLife events and giveaways."]
         },
         {"tag": "offered_room",
-            "patterns": ["room", "offer", "accommodation", "accept", "decline"],
-            "responses": ["You will be offered a room in one of our residences. You can either accept or decline the offer. If you accept the offer, you will need to pay an advanced rent payment of £150 for UK students, £1000 for international students, and £50 for returning students."]
+            "patterns": ["room", "offered room", "accepting housing offer", "decline room"],
+            "responses": ["You will be offered a room in one of our residences. You can either accept or decline the offer. If you accept the offer, you will need to pay an advanced rent payment of £150 for UK students, £1000 for international students, and £50 for returning students.","Upon receiving a room offer, you'll get an email outlining the acceptance process. Follow the instructions in the email to secure your accommodation."]
         },
         {"tag": "contract_length",
-            "patterns": ["contract", "length", "accommodation", "stay"],
+            "patterns": ["contract length", "accommodation length", "period of stay"],
             "responses": ["The standard contract length is 40 weeks. You can apply for a 50 week contract if you are a returning student or a postgraduate student."]
         }
     ]
