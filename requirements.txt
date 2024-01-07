@@ -5,7 +5,7 @@ Keras
 
 tensorflow
 speechrecognition
-speech_recognition
+
 
 nltk
 pyttsx3
