@@ -4,6 +4,7 @@ import tempfile
 import streamlit as st
 import pickle
 from keras.models import load_model
+
 # Custom styling
 st.markdown(
     """
@@ -28,8 +29,6 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-
-
 
 # title
 import random
@@ -64,6 +63,7 @@ classes = pickle.load(open('classes.pkl', 'rb'))
 lemmatizer = WordNetLemmatizer()
 # create the interface
 st.title("Solent University Chatbot")
+
 
 # define the function to predict the intent
 def recognize_speech():
@@ -123,6 +123,7 @@ def get_reply(intents_list, intents_json):
 
     return "Sorry, I don't understand. Can you please rephrase?"
 
+
 # function to speak the text
 def speak(text):
     # Initialize the text-to-speech engine
@@ -134,7 +135,9 @@ def speak(text):
         if voice.name == 'Microsoft Zira Desktop - English (United States)':
             engine.setProperty('voice', voice.id)
             break
-
+    engine.setProperty('rate', 150)
+    engine.say(text)
+    engine.runAndWait()  # blocks while processing all the currently queued commands
 
 
 # Function to process user input and generate response
@@ -148,6 +151,7 @@ def process_input(user_input):
 if 'history' not in st.session_state:
     st.session_state['history'] = []
 
+
 # Define a function to handle the chat response and update the history
 def handle_chat():
     user_message = st.session_state.user_input
@@ -156,7 +160,7 @@ def handle_chat():
         response = process_input(user_message)
 
         # Update the chat history
-        st.session_state.history.append({"user": "You", "message": user_message})
+        st.session_state.history.append({"user": "Me", "message": user_message})
         st.session_state.history.append({"user": "SolentBot", "message": response})
 
         # Clear the input box
@@ -165,6 +169,8 @@ def handle_chat():
         # Speak the response if necessary
         speak(response)
 
+
+# Main function
 def main():
     st.image('https://www.solent.ac.uk/graphics/logo/rebrandLogoSticky.svg', width=200)
     st.markdown('<p class="big-font">Hi there, welcome to Solent University!</p>', unsafe_allow_html=True)
