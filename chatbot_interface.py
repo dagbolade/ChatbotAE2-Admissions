@@ -50,8 +50,8 @@ from keras.preprocessing.sequence import pad_sequences
 #
 
 
-# load the model and other necessary utilities
-model = load_model('solentBot_model.keras')
+# load the model
+model = load_model('solentBot_model.h5')
 
 # load the tokenizer and encoder from pickle files
 
