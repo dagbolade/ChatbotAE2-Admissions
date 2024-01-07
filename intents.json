@@ -20,7 +20,7 @@
         },
 
         {
-            "tag": "unclear",
+          "tag": "unclear",
             "patterns": [],
             "responses": [
                 "I'm not sure I understand what you're asking. Could you rephrase that?",
@@ -28,6 +28,19 @@
                 "I'm having a little trouble understanding. Could you clarify?"
             ]
         },
+
+        {"tag": "master_programs",
+          "patterns": ["master programs", "masters", "postgraduate", "postgrad", "postgraduate programs"],
+          "responses": ["We offer a wide range of postgraduate courses in various fields including Business, Engineering, Arts, and Sciences. You can find more information about our courses on our website.",
+            "our postgraduate programs are designed to help you advance your career and gain specialized knowledge in your field. You can find more information about our courses on our website www.solent.ac.uk/courses/postgraduate"]
+        },
+
+        {"tag": "undergraduate_programs",
+            "patterns": ["undergraduate programs", "undergrad", "undergraduate", "bachelor", "bachelor programs"],
+            "responses": ["We offer a wide range of undergraduate courses in various fields including Business, Engineering, Arts, and Sciences. You can find more information about our courses on our website.",
+            "our undergraduate programs are designed to help you advance your career and gain specialized knowledge in your field. You can find more information about our courses on our website www.solent.ac.uk/courses/undergraduate"]
+        },
+
 
         {"tag": "admission_process",
         "patterns": ["admission process", "how to apply", "application process"],
