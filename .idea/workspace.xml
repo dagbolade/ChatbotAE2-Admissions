@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a40d58e8-b865-4cae-82ca-cf3cbadb4574" name="Changes" comment="updated requirements">
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatbot_interface.py" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot_interface.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +184,7 @@
       <workItem from="1704390780404" duration="4647000" />
       <workItem from="1704460727174" duration="6545000" />
       <workItem from="1704647692212" duration="82000" />
-      <workItem from="1704647836856" duration="19111000" />
+      <workItem from="1704647836856" duration="19450000" />
     </task>
     <task id="LOCAL-00001" summary="added intents for the chatbots">
       <option name="closed" value="true" />
@@ -458,7 +458,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704668648973</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="updated requirements">
+      <option name="closed" value="true" />
+      <created>1704668721734</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1704668721734</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

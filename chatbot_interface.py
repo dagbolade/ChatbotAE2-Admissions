@@ -49,6 +49,8 @@ from keras.preprocessing.sequence import pad_sequences
 # st.markdown('How can we help you today?')
 #
 
+nltk.download('punkt')
+nltk.download('wordnet')
 
 # load the model
 model = load_model('solentBot_model.h5')
