@@ -9,6 +9,26 @@
         "responses": ["My name is SolentBot. I am here to help you with the admissions and enrollment process.", "I'm SolentBot, your virtual assistant. I can help you with the admissions and enrollment process.", "SolentBot here! I can help you with the admissions and enrollment process."]
         },
 
+        {"tag": "help",
+        "patterns": ["help", "need help", "need assistance"],
+        "responses": ["How can I help you today?", "What can I help you with today?", "How can I assist you today?"]
+        },
+
+        {"tag": "farewell",
+        "patterns": ["bye", "goodbye", "see you", "thanks"],
+        "responses": ["Goodbye! Feel free to return anytime you have more questions. Have a great day!"]
+        },
+
+        {
+            "tag": "unclear",
+            "patterns": [],
+            "responses": [
+                "I'm not sure I understand what you're asking. Could you rephrase that?",
+                "Can you please provide more detail or ask in a different way?",
+                "I'm having a little trouble understanding. Could you clarify?"
+            ]
+        },
+
         {"tag": "admission_process",
         "patterns": ["admission process", "how to apply", "application process"],
         "responses": ["The admission process involves submitting an online application, sending in your transcripts and other necessary documents, and waiting for an admission decision."]

@@ -111,16 +111,26 @@ def prediction(sentence):
     get_back_list = []
     for r in results:
         get_back_list.append({'intent': classes[r[0]], 'probability': str(r[1])})
+
+        # Ask for clarification if confidence is low
+    if not get_back_list or float(get_back_list[0]['probability']) < ERROR_THRESHOLD:
+        return [{"intent": "unclear", "probability": "1.0"}]
+
     return get_back_list
 
 
 def get_reply(intents_list, intents_json):
+    if not intents_list:
+        # Return a fallback response if no intent is predicted with high confidence
+        return "I'm not sure how to respond to that. Can you rephrase or ask something else?"
+
     tag = intents_list[0]['intent']
     all_intents = intents_json['intents']
     for i in all_intents:
         if i['tag'] == tag:
             return random.choice(i['responses'])
 
+    # Return a fallback response if the tag isn't found
     return "Sorry, I don't understand. Can you please rephrase?"
 
 
@@ -143,8 +153,14 @@ def speak(text):
 # Function to process user input and generate response
 def process_input(user_input):
     pred = prediction(user_input)
-    response = get_reply(pred, intents)
-    return response
+    # Check if the prediction confidence is above a threshold
+    if not pred or float(pred[0]['probability']) < 0.25:
+        # Fallback response if confidence is low
+        return "I'm not sure how to respond to that. Can you rephrase or ask something else?"
+    else:
+        # If confidence is high, get the corresponding response
+        response = get_reply(pred, intents)
+        return response
 
 
 # Initialize session state variables if they don't exist
@@ -155,6 +171,7 @@ if 'history' not in st.session_state:
 # Define a function to handle the chat response and update the history
 def handle_chat():
     user_message = st.session_state.user_input
+
     if user_message:
         # Process the user input and get the response
         response = process_input(user_message)
