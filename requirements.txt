@@ -8,8 +8,4 @@ speechrecognition
 scikit-learn
 
 nltk
-punkt
-wordnet
-textblob
-
 pyttsx3
