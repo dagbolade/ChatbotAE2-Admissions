@@ -2,7 +2,7 @@ matplotlib
 streamlit
 numpy
 Keras
-
+espeak
 tensorflow
 speechrecognition
 scikit-learn
