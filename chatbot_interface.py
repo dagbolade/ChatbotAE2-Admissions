@@ -1,4 +1,5 @@
 import json
+import tempfile
 
 import streamlit as st
 import pickle
@@ -124,18 +125,16 @@ def get_reply(intents_list, intents_json):
 
 # function to speak the text
 def speak(text):
-    # initialize the engine
+    # Initialize the text-to-speech engine
     engine = pyttsx3.init()
-    # get a list of all voices
     voices = engine.getProperty('voices')
 
-    # Example to select the first female voice
+    # Set the properties for the voice
     for voice in voices:
         if voice.name == 'Microsoft Zira Desktop - English (United States)':
             engine.setProperty('voice', voice.id)
             break
-    engine.say(text)
-    engine.runAndWait() # blocks while processing all the currently queued commands
+
 
 
 # Function to process user input and generate response
@@ -157,8 +156,8 @@ def handle_chat():
         response = process_input(user_message)
 
         # Update the chat history
-        st.session_state.history.append(f"You: {user_message}")
-        st.session_state.history.append(f"SolentBot: {response}")
+        st.session_state.history.append({"user": "You", "message": user_message})
+        st.session_state.history.append({"user": "SolentBot", "message": response})
 
         # Clear the input box
         st.session_state.user_input = ""
@@ -170,18 +169,25 @@ def main():
     st.image('https://www.solent.ac.uk/graphics/logo/rebrandLogoSticky.svg', width=200)
     st.markdown('<p class="big-font">Hi there, welcome to Solent University!</p>', unsafe_allow_html=True)
 
-    # Display chat history
-    for message in st.session_state.history:
-        st.text(message)
+    # Display chat history in two columns
+    for chat in st.session_state.history:
+        col1, col2 = st.columns([1, 3])
+        with col1:
+            if isinstance(chat, dict):
+                st.markdown(f"**{chat['user']}:**")
+            else:
+                st.error(f"Invalid chat format: {chat}")
+        with col2:
+            if isinstance(chat, dict):
+                st.info(chat['message'])
+            else:
+                st.error(f"Invalid chat format: {chat}")
 
     # Chatbot interaction
     user_input = st.text_input("Type your message here...", key="user_input")
     submit_button = st.button('Send', on_click=handle_chat)
-
-    # Show the most recent response (and any past messages) in a text area
-    if st.session_state.history:
-        chat_history = '\n'.join(st.session_state.history[-6:])  # Show last 3 exchanges (6 lines)
-        st.text_area("Chat", value=chat_history, height=250, disabled=True)
+    if submit_button:
+        handle_chat()
 
 
 if __name__ == "__main__":
