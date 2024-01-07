@@ -8,4 +8,8 @@ speechrecognition
 scikit-learn
 
 nltk
+nltk.download('punkt')
+nltk.download('wordnet')
+nltk.download('stopwords')
+
 pyttsx3
