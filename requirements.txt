@@ -4,3 +4,6 @@ numpy
 Keras
 
 tensorflow
+speech_recognition
+nltk
+pyttsx3
