@@ -172,7 +172,7 @@ if 'history' not in st.session_state:
 
 # Define a function to handle the chat response and update the history
 def handle_chat():
-    user_message = st.session_state.user_input
+    user_message = st.session_state.user_input.lower()
 
     if user_message:
         # Process the user input and get the response
