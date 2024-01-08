@@ -28,6 +28,21 @@
                 "I'm having a little trouble understanding. Could you clarify?"
             ]
         },
+        {
+          "tag": "fallback",
+            "patterns": [],
+            "responses": [
+                "I'm sorry, I don't know the answer to that. Could you ask in a different way?",
+                "I'm not sure I understand. Could you rephrase that?",
+                "I'm having a little trouble understanding. Could you clarify?"
+            ]
+        },
+
+
+        {"tag": "thanks",
+            "patterns": ["thank you", "thanks", "thank you so much"],
+            "responses": ["You're welcome!", "No problem!", "My pleasure!","feel free to ask me anything else."]
+        },
 
         {"tag": "master_programs",
           "patterns": ["master programs", "masters", "postgraduate", "postgrad", "postgraduate programs"],
