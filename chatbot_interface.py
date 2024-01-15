@@ -43,11 +43,6 @@ import os
 from keras.models import load_model
 from keras.preprocessing.sequence import pad_sequences
 
-# Greeting message
-# st.markdown('<p class="big-font">Hi there, welcome to Solent University!</p>', unsafe_allow_html=True)
-# st.markdown("We're based in Southampton and provide real-world learning experiences to make sure our students are future-ready!")
-# st.markdown('How can we help you today?')
-#
 
 nltk.download('punkt')
 nltk.download('wordnet')

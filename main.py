@@ -17,7 +17,7 @@ from playsound import playsound
 # Add any other required imports here (e.g., tokenizer, label encoder)
 
 # Load the model and other necessary utilities
-model = load_model('solentBot_model.keras')
+model = load_model('solentBot_model.h5')
 
 # %%
 # Load the tokenizer and encoder from pickle files
@@ -105,14 +105,6 @@ def speak(text):
     engine = pyttsx3.init()
     # get a list of all voices
     voices = engine.getProperty('voices')
-    # Print details of each voice
-    for i, voice in enumerate(voices):
-        print(f"Voice {i + 1}:")
-        print(f" - ID: {voice.id}")
-        print(f" - Name: {voice.name}")
-        print(f" - Gender: {voice.gender}")
-        print(f" - Languages: {voice.languages}\n")
-
     # Example to select the first female voice
     for voice in voices:
         if voice.name == 'Microsoft Zira Desktop - English (United States)':
