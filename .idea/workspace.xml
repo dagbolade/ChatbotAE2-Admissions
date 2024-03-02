@@ -194,15 +194,7 @@
       <workItem from="1705360380323" duration="2109000" />
       <workItem from="1705395904538" duration="2896000" />
       <workItem from="1705536755093" duration="613000" />
-      <workItem from="1709346284754" duration="9915000" />
-    </task>
-    <task id="LOCAL-00009" summary="imported the json file....updated">
-      <option name="closed" value="true" />
-      <created>1702668408418</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1702668408418</updated>
+      <workItem from="1709346284754" duration="10119000" />
     </task>
     <task id="LOCAL-00010" summary="started preprocessing the intents file using nltk techniques">
       <option name="closed" value="true" />
@@ -588,7 +580,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709355789704</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="updated!!!!">
+      <option name="closed" value="true" />
+      <created>1709356395245</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1709356395245</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
