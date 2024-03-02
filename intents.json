@@ -84,8 +84,8 @@
         },
 
         {"tag": "enrollment_process",
-        "patterns": ["enrollment process", "how to enroll", "enrollment"],
-        "responses": ["After receiving your admission offer, you can enroll online through the student portal. You will need to choose your courses and pay the enrollment fee."]
+        "patterns": ["courses", "programs", "degrees", "majors"],
+        "responses": ["We offer a wide range of undergraduate and postgraduate courses in various fields including Business, \n Engineering, Arts, and Sciences. You can find more information about our courses on our website: https://www.solent.ac.uk/courses"]
         },
 
 
@@ -99,10 +99,7 @@
         "patterns": ["bye", "goodbye", "see you", "thanks"],
         "responses": ["Goodbye! Feel free to return anytime you have more questions. Have a great day!"]
         },
-        {"tag": "course_information",
-          "patterns": ["courses", "programs", "degrees", "majors"],
-          "responses": ["We offer a wide range of undergraduate and postgraduate courses in various fields including Business, \n Engineering, Arts, and Sciences. You can find more information about our courses on our website: https://www.solent.ac.uk/courses"]
-        },
+
 
         {"tag": "international_students",
         "patterns": ["international students", "international", "visa"],
