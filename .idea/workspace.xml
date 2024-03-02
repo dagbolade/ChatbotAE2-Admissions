@@ -8,7 +8,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chatbot_interface.py" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot_interface.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/intents.json" beforeDir="false" afterPath="$PROJECT_DIR$/intents.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_train_file.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/new_train_file.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,15 +196,7 @@
       <workItem from="1705360380323" duration="2109000" />
       <workItem from="1705395904538" duration="2896000" />
       <workItem from="1705536755093" duration="613000" />
-      <workItem from="1709346284754" duration="11937000" />
-    </task>
-    <task id="LOCAL-00014" summary="tensorflow">
-      <option name="closed" value="true" />
-      <created>1704385752789</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1704385752789</updated>
+      <workItem from="1709346284754" duration="12026000" />
     </task>
     <task id="LOCAL-00015" summary="trying to integrate speech recognition">
       <option name="closed" value="true" />
@@ -591,7 +582,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709358079945</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="updated!!!!">
+      <option name="closed" value="true" />
+      <created>1709358349948</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1709358349948</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
