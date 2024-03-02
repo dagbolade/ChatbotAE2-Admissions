@@ -32,9 +32,11 @@
           "tag": "fallback",
             "patterns": [],
             "responses": [
-                "I'm sorry, I don't know the answer to that. Could you ask in a different way?",
+                "I'm sorry, I don't know the answer to that. Could you ask another question or check how website: https://www.solent.ac.uk/?",
                 "I'm not sure I understand. Could you rephrase that?",
-                "I'm having a little trouble understanding. Could you clarify?"
+              "I'm sorry, i might not have the answer to that. can you check our website for more information?,here's the link: www.solent.ac.uk",
+                "I'm sorry, I don't have the answer to that. You can find more information on our website: www.solent.ac.uk"
+
             ]
         },
 
@@ -87,9 +89,9 @@
         "responses": ["After receiving your admission offer, you can enroll online through the student portal. You will need to choose your courses and pay the enrollment fee."]
         },
 
-        {"tag": "enrollment_deadline",
+        {"tag": "courses",
         "patterns": ["courses", "programs", "degrees", "majors"],
-        "responses": ["We offer a wide range of undergraduate and postgraduate courses in various fields including Business, Engineering, Arts, and Sciences. You can find more information about our courses on our website."]
+        "responses": ["We offer a wide range of undergraduate and postgraduate courses in various fields including Business, Engineering, Arts, and Sciences. You can find more information about our courses on our website: https://www.solent.ac.uk/courses"]
         },
 
         {"tag": "contact_information",
@@ -155,7 +157,8 @@
 
         {"tag": "student_life",
             "patterns": ["student life", "student activities", "clubs", "societies"],
-            "responses": ["We have a vibrant student community with a variety of clubs and societies. You can find more information about student life on our website."]
+            "responses": ["We have a vibrant student community with a variety of clubs and societies. You can find more information about student life on our website,\n here,is the link: https://www.solent.ac.uk/discover/52-things-to-do/week-51-clubs-and-societies"],
+
         },
 
         {"tag": "student_support",
