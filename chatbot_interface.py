@@ -47,7 +47,6 @@ import os
 from keras.models import load_model
 from keras.preprocessing.sequence import pad_sequences
 
-
 nltk.download('punkt')
 nltk.download('wordnet')
 
@@ -136,7 +135,7 @@ def get_reply(intents_list, intents_json):
 
 
 # function to speak the text
-def speak(text): # using google text to speech
+def speak(text):  # using google text to speech
     # Initialize gTTS object
     tts = gTTS(text=text, lang='en', slow=False)
 
@@ -158,7 +157,8 @@ def speak(text): # using google text to speech
     </audio>
     """
     components.html(html_str, height=0)  # blocks while processing all the currently queued commands
-    
+
+
 # python text to speech function
 # def speak(text):
 #     # Initialize the text-to-speech engine
@@ -216,6 +216,20 @@ def main():
     st.image('https://www.solent.ac.uk/graphics/logo/rebrandLogoSticky.svg', width=200)
     st.markdown('<p class="big-font">Hi there, welcome to Solent University!</p>', unsafe_allow_html=True)
 
+    # Define a few example prompts based on the intents
+    example_prompts = {
+        "Say Hi to SolentBot": "hello",
+        "Ask about the Admission Process": "admission process",
+        "Inquire about Financial Aid": "financial aid",
+        "Learn about Accommodation": "accommodation",
+        "Discover Undergraduate Programs": "undergraduate programs",
+    }
+
+    # Display prompts as buttons
+    for prompt_text, intent_keyword in example_prompts.items():
+        if st.button(prompt_text):
+            simulate_user_input(intent_keyword)  # Simulate user input based on button click
+
     # Display chat history in two columns
     for chat in st.session_state.history:
         col1, col2 = st.columns([1, 3])
@@ -235,6 +249,20 @@ def main():
     submit_button = st.button('Send', on_click=handle_chat)
     if submit_button:
         handle_chat()
+
+
+def simulate_user_input(intent_keyword):
+    """
+    Simulate user input based on the keyword associated with an intent.
+    This function directly processes the keyword as if the user had typed it.
+    """
+    # Directly invoke processing and response generation for the intent_keyword
+    response = process_input(intent_keyword)
+    if 'history' not in st.session_state:
+        st.session_state.history = []
+    st.session_state.history.append({"user": "Me", "message": intent_keyword})
+    st.session_state.history.append({"user": "SolentBot", "message": response})
+    speak(response)
 
 
 if __name__ == "__main__":

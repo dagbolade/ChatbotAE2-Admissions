@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a40d58e8-b865-4cae-82ca-cf3cbadb4574" name="Changes" comment="final code updated...">
+    <list default="true" id="a40d58e8-b865-4cae-82ca-cf3cbadb4574" name="Changes" comment="used gtts">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chatbot_interface.py" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot_interface.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,7 +195,7 @@
       <workItem from="1705360380323" duration="2109000" />
       <workItem from="1705395904538" duration="2896000" />
       <workItem from="1705536755093" duration="613000" />
-      <workItem from="1709346284754" duration="1480000" />
+      <workItem from="1709346284754" duration="4668000" />
     </task>
     <task id="LOCAL-00001" summary="added intents for the chatbots">
       <option name="closed" value="true" />
@@ -542,7 +541,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709346634983</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="used gtts">
+      <option name="closed" value="true" />
+      <created>1709347871378</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1709347871378</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -583,7 +590,8 @@
     <MESSAGE value="updated requirements" />
     <MESSAGE value="updated....." />
     <MESSAGE value="final code updated..." />
-    <option name="LAST_COMMIT_MESSAGE" value="final code updated..." />
+    <MESSAGE value="used gtts" />
+    <option name="LAST_COMMIT_MESSAGE" value="used gtts" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ChatbotAE2$train_file.coverage" NAME="train_file Coverage Results" MODIFIED="1701133700504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
