@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a40d58e8-b865-4cae-82ca-cf3cbadb4574" name="Changes" comment="updated.....">
+    <list default="true" id="a40d58e8-b865-4cae-82ca-cf3cbadb4574" name="Changes" comment="final code updated...">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chatbot_interface.py" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot_interface.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/new_train_file.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/new_train_file.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solentBot_model.h5" beforeDir="false" afterPath="$PROJECT_DIR$/solentBot_model.h5" afterDir="false" />
     </list>
@@ -191,7 +190,10 @@
       <workItem from="1704647836856" duration="22435000" />
       <workItem from="1704715595788" duration="93000" />
       <workItem from="1705065965273" duration="551000" />
-      <workItem from="1705269365982" duration="4832000" />
+      <workItem from="1705269365982" duration="7504000" />
+      <workItem from="1705360380323" duration="2109000" />
+      <workItem from="1705395904538" duration="2896000" />
+      <workItem from="1705536755093" duration="613000" />
     </task>
     <task id="LOCAL-00001" summary="added intents for the chatbots">
       <option name="closed" value="true" />
@@ -513,7 +515,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704673753999</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="final code updated...">
+      <option name="closed" value="true" />
+      <created>1705279320679</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1705279320679</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -553,11 +563,12 @@
     <MESSAGE value="updated reuirements" />
     <MESSAGE value="updated requirements" />
     <MESSAGE value="updated....." />
-    <option name="LAST_COMMIT_MESSAGE" value="updated....." />
+    <MESSAGE value="final code updated..." />
+    <option name="LAST_COMMIT_MESSAGE" value="final code updated..." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ChatbotAE2$train_file.coverage" NAME="train_file Coverage Results" MODIFIED="1701133700504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ChatbotAE2$chatbot_interface.coverage" NAME="chatbot_interface Coverage Results" MODIFIED="1705273507918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ChatbotAE2$main.coverage" NAME="main Coverage Results" MODIFIED="1705274168812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ChatbotAE2$main.coverage" NAME="main Coverage Results" MODIFIED="1705399376515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

@@ -181,7 +181,7 @@ def handle_chat():
         st.session_state.user_input = ""
 
         # Speak the response if necessary
-        #speak(response)
+        speak(response)
 
 
 # Main function
