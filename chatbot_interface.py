@@ -109,7 +109,7 @@ def prediction(sentence):
     print("Predictions:", res)
 
     # Threshold check
-    ERROR_THRESHOLD = 0.5
+    ERROR_THRESHOLD = 0.3
     results = [[i, r] for i, r in enumerate(res) if r > ERROR_THRESHOLD]
     results.sort(key=lambda x: x[1], reverse=True)
     print("Filtered results:", results)
@@ -184,7 +184,7 @@ def speak(text):  # using google text to speech
 def process_input(user_input):
     pred = prediction(user_input)
     # Check if the prediction confidence is above a threshold
-    if not pred or float(pred[0]['probability']) < 0.55:
+    if not pred or float(pred[0]['probability']) < 0.3:
         # Fallback response if confidence is low
         return "I'm not sure how to respond to that. Can you rephrase or ask something else?"
     else:
