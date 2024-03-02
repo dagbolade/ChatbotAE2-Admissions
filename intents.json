@@ -157,7 +157,7 @@
 
         {"tag": "student_life",
             "patterns": ["student life", "student activities", "clubs", "societies"],
-            "responses": ["We have a vibrant student community with a variety of clubs and societies. You can find more information about student life on our website,\n here,is the link: https://www.solent.ac.uk/discover/52-things-to-do/week-51-clubs-and-societies"],
+            "responses": ["We have a vibrant student community with a variety of clubs and societies. You can find more information about student life on our website,\n here,is the link: https://www.solent.ac.uk/discover/52-things-to-do/week-51-clubs-and-societies"]
 
         },
 
