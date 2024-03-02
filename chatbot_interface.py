@@ -62,7 +62,7 @@ words = pickle.load(open('words.pkl', 'rb'))
 classes = pickle.load(open('classes.pkl', 'rb'))
 lemmatizer = WordNetLemmatizer()
 # create the interface
-st.title("Solent University Chatbot")
+st.title("Solent University Admission And Enrollment Chatbot")
 
 
 # define the function to predict the intent
@@ -184,7 +184,7 @@ def speak(text):  # using google text to speech
 def process_input(user_input):
     pred = prediction(user_input)
     # Check if the prediction confidence is above a threshold
-    if not pred or float(pred[0]['probability']) < 0.25:
+    if not pred or float(pred[0]['probability']) < 0.55:
         # Fallback response if confidence is low
         return "I'm not sure how to respond to that. Can you rephrase or ask something else?"
     else:
