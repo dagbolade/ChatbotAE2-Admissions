@@ -1,8 +1,12 @@
+import base64
 import json
 import tempfile
+from io import BytesIO
 
 import streamlit as st
 import pickle
+
+from gtts import gTTS
 from keras.models import load_model
 
 # Custom styling
@@ -29,7 +33,7 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-
+import streamlit.components.v1 as components
 # title
 import random
 import pickle
@@ -132,20 +136,43 @@ def get_reply(intents_list, intents_json):
 
 
 # function to speak the text
-def speak(text):
-    # Initialize the text-to-speech engine
-    engine = pyttsx3.init()
-    voices = engine.getProperty('voices')
+def speak(text): # using google text to speech
+    # Initialize gTTS object
+    tts = gTTS(text=text, lang='en', slow=False)
 
-    # Set the properties for the voice
-    for voice in voices:
-        if voice.name == 'Microsoft Zira Desktop - English (United States)':
-            engine.setProperty('voice', voice.id)
-            break
-    engine.setProperty('rate', 150)
-    engine.say(text)
-    engine.runAndWait()  # blocks while processing all the currently queued commands
+    # Save the audio file to a bytes buffer
+    buf = BytesIO()
+    tts.write_to_fp(buf)
+    buf.seek(0)
 
+    # Encode the bytes buffer to base64
+    audio_base64 = base64.b64encode(buf.read()).decode('utf-8')
+    buf.close()
+
+    # Construct HTML to play audio and use Streamlit to display it
+    # The JavaScript automatically plays the audio when it is loaded following a user interaction
+    html_str = f"""
+    <audio autoplay>
+        <source src="data:audio/mp3;base64,{audio_base64}" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    """
+    components.html(html_str, height=0)  # blocks while processing all the currently queued commands
+    
+# python text to speech function
+# def speak(text):
+#     # Initialize the text-to-speech engine
+#     engine = pyttsx3.init()
+#     voices = engine.getProperty('voices')
+#
+#     # Set the properties for the voice
+#     for voice in voices:
+#         if voice.name == 'Microsoft Zira Desktop - English (United States)':
+#             engine.setProperty('voice', voice.id)
+#             break
+#     engine.setProperty('rate', 150)
+#     engine.say(text)
+#     engine.runAndWait()  # blocks while processing all the currently queued commands
 
 # Function to process user input and generate response
 def process_input(user_input):
