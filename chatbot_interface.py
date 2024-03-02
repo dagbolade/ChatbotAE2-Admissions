@@ -223,6 +223,9 @@ def main():
         "Inquire about Financial Aid": "financial aid",
         "Learn about Accommodation": "accommodation",
         "Discover Undergraduate Programs": "undergraduate programs",
+        "Explore Postgraduate Programs": "postgraduate programs",
+        "Find out about Student Life": "student life",
+        "Car Parking": "car parking",
     }
 
     # Display prompts as buttons

@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a40d58e8-b865-4cae-82ca-cf3cbadb4574" name="Changes" comment="used gtts">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="a40d58e8-b865-4cae-82ca-cf3cbadb4574" name="Changes" comment="added prompts to enable user have an understanding of what they are going to ask">
       <change beforePath="$PROJECT_DIR$/chatbot_interface.py" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot_interface.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -195,7 +194,7 @@
       <workItem from="1705360380323" duration="2109000" />
       <workItem from="1705395904538" duration="2896000" />
       <workItem from="1705536755093" duration="613000" />
-      <workItem from="1709346284754" duration="4668000" />
+      <workItem from="1709346284754" duration="4880000" />
     </task>
     <task id="LOCAL-00001" summary="added intents for the chatbots">
       <option name="closed" value="true" />
@@ -549,7 +548,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709347871378</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="added prompts to enable user have an understanding of what they are going to ask">
+      <option name="closed" value="true" />
+      <created>1709351213588</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1709351213588</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -591,7 +598,8 @@
     <MESSAGE value="updated....." />
     <MESSAGE value="final code updated..." />
     <MESSAGE value="used gtts" />
-    <option name="LAST_COMMIT_MESSAGE" value="used gtts" />
+    <MESSAGE value="added prompts to enable user have an understanding of what they are going to ask" />
+    <option name="LAST_COMMIT_MESSAGE" value="added prompts to enable user have an understanding of what they are going to ask" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ChatbotAE2$train_file.coverage" NAME="train_file Coverage Results" MODIFIED="1701133700504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
