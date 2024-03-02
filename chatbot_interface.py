@@ -136,7 +136,8 @@ def get_reply(intents_list, intents_json):
         if i['tag'] == tag:
             return random.choice(i['responses'])
 
-
+    # Return a fallback response if the tag isn't found
+    return "Sorry, I don't understand. Can you please rephrase?"
 
 
 # function to speak the text
