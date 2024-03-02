@@ -134,6 +134,7 @@ def get_reply(intents_list, intents_json):
     all_intents = intents_json['intents']
     for i in all_intents:
         if i['tag'] == tag:
+            print("Found tag:", tag)
             return random.choice(i['responses'])
 
     # Return a fallback response if the tag isn't found
