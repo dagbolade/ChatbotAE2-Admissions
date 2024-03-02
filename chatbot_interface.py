@@ -109,7 +109,7 @@ def prediction(sentence):
     print("Predictions:", res)
 
     # Threshold check
-    ERROR_THRESHOLD = 0.55
+    ERROR_THRESHOLD = 0.5
     results = [[i, r] for i, r in enumerate(res) if r > ERROR_THRESHOLD]
     results.sort(key=lambda x: x[1], reverse=True)
     print("Filtered results:", results)
