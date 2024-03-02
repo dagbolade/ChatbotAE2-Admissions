@@ -83,13 +83,21 @@
         "responses": ["We offer a variety of scholarships and financial aid options. You can apply for financial aid through the student portal after completing your application."]
         },
 
-        {"tag": "enrollment_process",
+        {"tag": "courses",
         "patterns": ["courses", "programs", "degrees", "majors"],
         "responses": ["We offer a wide range of undergraduate and postgraduate courses in various fields including Business, \n Engineering, Arts, and Sciences. You can find more information about our courses on our website: https://www.solent.ac.uk/courses"]
         },
-
-
-
+      {
+        "tag": "enrollment process",
+        "patterns": [
+          "enrollment",
+          "enroll",
+          "registration "
+        ],
+        "responses": [
+          "The enrollment process involves accepting your admission offer, paying the tuition fees, and registering for classes. You will also need to attend an orientation program before the start of the semester."
+        ]
+      },
         {"tag": "contact_information",
         "patterns": ["contact", "phone number", "email", "address"],
         "responses": ["You can contact the Admissions Office at admissions@solent.ac.uk or call us at +44 (0)23 8201 5066."]
