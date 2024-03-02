@@ -226,6 +226,7 @@ def main():
     example_prompts = {
         "Say Hi to SolentBot": "hello",
         "Ask about the Admission Process": "admission process",
+        "Ask about courses": "courses",
         "Inquire about Financial Aid": "financial aid",
         "Learn about Accommodation": "accommodation",
         "Discover Undergraduate Programs": "undergraduate programs",
