@@ -101,19 +101,25 @@ def words_box(sentence, show_details=True):
 
 
 def prediction(sentence):
-    # filter out predictions below a threshold
+    # Process input and predict
     bd = words_box(sentence, show_details=False)
     res = model.predict(np.array([bd]))[0]
-    ERROR_THRESHOLD = 0.25
-    results = [[i, r] for i, r in enumerate(res) if r > ERROR_THRESHOLD]
 
+    # Log predictions and their confidence levels for debugging
+    print("Predictions:", res)
+
+    # Threshold check
+    ERROR_THRESHOLD = 0.55
+    results = [[i, r] for i, r in enumerate(res) if r > ERROR_THRESHOLD]
     results.sort(key=lambda x: x[1], reverse=True)
+    print("Filtered results:", results)
+
     get_back_list = []
     for r in results:
         get_back_list.append({'intent': classes[r[0]], 'probability': str(r[1])})
 
-        # Ask for clarification if confidence is low
     if not get_back_list or float(get_back_list[0]['probability']) < ERROR_THRESHOLD:
+        print("Triggering unclear intent")
         return [{"intent": "unclear", "probability": "1.0"}]
 
     return get_back_list
@@ -226,6 +232,7 @@ def main():
         "Explore Postgraduate Programs": "postgraduate programs",
         "Find out about Student Life": "student life",
         "Car Parking": "car parking",
+        "bye": "bye",
     }
 
     # Display prompts as buttons
