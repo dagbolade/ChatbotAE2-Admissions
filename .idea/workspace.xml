@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a40d58e8-b865-4cae-82ca-cf3cbadb4574" name="Changes" comment="final code updated...">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatbot_interface.py" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot_interface.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_train_file.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/new_train_file.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solentBot_model.h5" beforeDir="false" afterPath="$PROJECT_DIR$/solentBot_model.h5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +37,9 @@
         <option name="url" value="https://github.com/dagbolade/ChatbotAE2-Admissions.git" />
       </UrlAndAccount>
     </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -153,7 +153,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-50da183f06c8-2887949eec09-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.13135.95" />
+        <option value="bundled-python-sdk-5a2391486177-2887949eec09-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.13763.11" />
       </set>
     </attachedChunks>
   </component>
@@ -194,6 +194,7 @@
       <workItem from="1705360380323" duration="2109000" />
       <workItem from="1705395904538" duration="2896000" />
       <workItem from="1705536755093" duration="613000" />
+      <workItem from="1709346284754" duration="320000" />
     </task>
     <task id="LOCAL-00001" summary="added intents for the chatbots">
       <option name="closed" value="true" />
@@ -523,7 +524,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705279320679</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="final code updated...">
+      <option name="closed" value="true" />
+      <created>1709346306513</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1709346306513</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
